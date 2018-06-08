@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "lualgorithms"
-version = "1.0-3"
--- LuaDist source
+version = "1.0-4"
 source = {
-  tag = "1.0-3",
-  url = "git://github.com/LuaDist-testing/lualgorithms.git"
+   url = "git://github.com/chen0040/lua-algorithms.git",
+   tag = "v1.0.4",
 }
--- Original source
--- source = {
---    url = "git://github.com/chen0040/lua-algorithms.git",
---    tag = "v1.0.3",
--- }
 description = {
    summary = "Lua Algorithms Library",
    detailed = [[
@@ -33,5 +25,7 @@ build = {
       ["lualgorithms.data.queue"] = "src/data/queue.lua",
       ["lualgorithms.data.minpq"] = "src/data/minpq.lua",
       ["lualgorithms.data.maxpq"] = "src/data/maxpq.lua",
+      ["lualgorithms.data.hashmap"] = "src/data/hashmap.lua",
+      ["lualgorithms.data.redblacktree"] = "src/data/redblacktree.lua",
    }
 }
