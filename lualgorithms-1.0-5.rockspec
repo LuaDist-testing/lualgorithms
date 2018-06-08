@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lualgorithms"
-version = "1.0-4"
+version = "1.0-5"
 -- LuaDist source
 source = {
-  tag = "1.0-4",
+  tag = "1.0-5",
   url = "git://github.com/LuaDist-testing/lualgorithms.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/chen0040/lua-algorithms.git",
---    tag = "v1.0.4",
+--    tag = "v1.0.5",
 -- }
 description = {
    summary = "Lua Algorithms Library",
@@ -34,6 +34,18 @@ build = {
       ["lualgorithms.data.minpq"] = "src/data/minpq.lua",
       ["lualgorithms.data.maxpq"] = "src/data/maxpq.lua",
       ["lualgorithms.data.hashmap"] = "src/data/hashmap.lua",
+      ["lualgorithms.data.hashset"] = "src/data/hashset.lua",
+      ["lualgorithms.tries.rwaytries"] = "src/tries/rwaytries.lua",
       ["lualgorithms.data.redblacktree"] = "src/data/redblacktree.lua",
+      ["lualgorithms.sorting.selection"] = "src/sorting/selection.lua",
+      ["lualgorithms.sorting.insertion"] = "src/sorting/insertion.lua",
+      ["lualgorithms.sorting.shellsort"] = "src/sorting/shellsort.lua",
+      ["lualgorithms.sorting.mergesort"] = "src/sorting/mergesort.lua",
+      ["lualgorithms.sorting.quicksort"] = "src/sorting/quicksort.lua",
+      ["lualgorithms.sorting.quicksort3ways"] = "src/sorting/quicksort3ways.lua",
+      ["lualgorithms.sorting.heapsort"] = "src/sorting/heapsort.lua",
+      ["lualgorithms.shuffling"] = "src/shuffling.lua",
+      ["lualgorithms.binarysearch"] = "src/binarysearch.lua",
+      ["lualgorithms.unionfind"] = "src/unionfind.lua",
    }
 }
