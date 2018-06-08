@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "lualgorithms"
-version = "1.0-6"
+version = "1.0-8"
+-- LuaDist source
 source = {
-   url = "git://github.com/chen0040/lua-algorithms.git",
-   tag = "v1.0.6",
+  tag = "1.0-8",
+  url = "git://github.com/LuaDist-testing/lualgorithms.git"
 }
+-- Original source
+-- source = {
+--    url = "git://github.com/chen0040/lua-algorithms.git",
+--    tag = "v1.0.8",
+-- }
 description = {
    summary = "Lua Algorithms Library",
    detailed = [[
